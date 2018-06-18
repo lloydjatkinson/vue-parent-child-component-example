@@ -1,12 +1,4 @@
 <template>
-    <!-- <nav class="level">
-        <statistics-banner-item :heading="'Types of Product'" :sub-heading="stockProducts.length" />
-        <statistics-banner-item :heading="'Stock Quantity'" :sub-heading="stockQuantity" />
-        <statistics-banner-item :heading="'Stock Value'" :sub-heading="stockTotalPrice" />
-        <statistics-banner-item :heading="'Low Stock'" :sub-heading="lowStockProducts.length" />
-        <statistics-banner-item :heading="'Orders'" :sub-heading="'TODO'" />
-    </nav> -->
-
     <div style="border:1px solid black; margin: 10px;">
         <h1>Parent Component</h1>
         <button @click="toggleAll">Toggle All</button>

@@ -2,7 +2,6 @@
     <div style="border:1px solid black; margin: 10px;">
         <h3>Child Component #{{ id }}</h3>
         <div>
-            <!-- <p>{{ id }}</p> -->
             <p>{{ bookmarked ? 'Bookmarked!' : 'Not bookmarked!' }}</p>
         </div>
         <div>
